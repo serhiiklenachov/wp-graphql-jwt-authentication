@@ -103,9 +103,9 @@ class Auth {
 		if ( ! isset( self::$expiration ) ) {
 
 			/**
-			 * Set the expiration time, default is 300 seconds.
+			 * Set the expiration time, default is 10 days.
 			 */
-			$expiration = 300;
+			$expiration = 864000;
 
 			/**
 			 * Determine the expiration value. Default is 5 minutes, but is filterable to be configured as needed
